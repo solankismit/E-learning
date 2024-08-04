@@ -1,0 +1,61 @@
+.benefits {
+  &__content {
+    &-item {
+      background-color: $color-white;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      border-radius: 10px;
+
+      @include laptop {
+        gap: 40px;
+        padding: 40px;
+      }
+      @include desktop {
+        gap: 50px;
+        padding: 50px;
+      }
+      &--no {
+        color: $color-grey15;
+        text-align: right;
+        font-size: 3.125rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.5rem; /* 48% */
+
+        @include laptop {
+          font-size: 3.75rem;
+        }
+        @include desktop {
+          font-size: 5rem;
+        }
+      }
+      &--text {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      &--link {
+        text-align: right;
+        .icon.icon-002-arrow-right-up {
+          padding: 14px;
+          @include desktop {
+            padding: 20px;
+          }
+          &:before {
+            font-size: 16px;
+            @include desktop {
+              font-size: 20px;
+            }
+          }
+          background-color: $color-white99;
+          color: $color-orange50;
+          border-radius: $border-radius;
+          border: 1px solid $color-white95;
+        }
+      }
+    }
+  }
+}

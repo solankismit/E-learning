@@ -1,0 +1,61 @@
+<section class="courses-section" id="courses">
+  <div class="container-fluid courses section-container">
+    <div class="custom-heading courses__heading">
+      <div class="custom-heading--text courses__heading--text">
+
+        <h2
+          class="custom-heading--text-title courses__heading--text-title"
+        >{{title}}</h2>
+        <p
+          class="custom-heading--text-desc courses__heading--text-desc"
+        >{{desc}}</p>
+      </div>
+
+      <div class="custom-heading--btns courses__heading--btns">
+        <div class="btn"><a href="">View All</a></div>
+      </div>
+    </div>
+
+    <div class="courses__content section-container__content">
+      <div class="row g-3 g-xxl-4">
+
+        {{#each data}}
+          <div class="col-12 col-sm-6">
+
+            <div class="courses__content-item">
+              <div class="courses__content-item--img"><img
+                  src={{this.img}}
+                  alt=""
+                /></div>
+              <div class="courses__content-item--add-info">
+                <div class="courses__content-item--add-info--tags">
+                  {{#each this.tags}}
+                    <span class="tag">{{this}}</span>
+                  {{/each}}
+                </div>
+                <div class="courses__content-item--add-info--author">
+                  <span>By {{this.author}}</span>
+                </div>
+              </div>
+
+              <div class="courses__content-item--text">
+                <h3
+                  class="courses__content-item--text-title"
+                >{{this.title}}</h3>
+                <p
+                  class="courses__content-item--text-desc desc"
+                >{{this.desc}}</p>
+              </div>
+              <div class="courses__content-item--link btn btn-full"><a
+                  href={{this.link}}
+                >Get it Now</a></div>
+            </div>
+          </div>
+        {{else}}
+          <p>No Content To Display</p>
+        {{/each}}
+      </div>
+    </div>
+
+  </div>
+</section>

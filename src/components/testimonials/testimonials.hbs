@@ -1,0 +1,52 @@
+<section class="testimonials-section" id="testimonials">
+  <div class="container-fluid testimonials section-container">
+    <div class="custom-heading testimonials__heading">
+      <div class="custom-heading--text testimonials__heading--text">
+
+        <h2
+          class="custom-heading--text-title testimonials__heading--text-title"
+        >{{title}}</h2>
+        <p
+          class="custom-heading--text-desc testimonials__heading--text-desc"
+        >{{desc}}</p>
+      </div>
+
+      <div class="custom-heading--btns testimonials__heading--btns">
+        <div class="btn"><a href="">View All</a></div>
+      </div>
+    </div>
+
+    <div class="testimonials__content section-container__content">
+      <div class="row g-3 g-xxl-4">
+
+        {{#each data}}
+          <div class="col-12 col-sm-6">
+
+            <div class="testimonials__content-item">
+              <div class="testimonials__content-item--review">
+                <p class="desc">{{this.review}}</p>
+              </div>
+              <div class="testimonials__content-item--profile">
+                <div class="testimonials__content-item--profile--info">
+                  <div
+                    class="testimonials__content-item--profile--info--img"
+                  ><img src={{this.img}} alt="" /></div>
+                  <span
+                    class="testimonials__content-item--profile--info--name"
+                  >{{this.name}}</span>
+
+                </div>
+                <div class="testimonials__content-item--profile--btn btn"><a
+                    href={{this.link}}
+                  >Read Full Story</a></div>
+              </div>
+            </div>
+          </div>
+        {{else}}
+          <p>No Content To Display</p>
+        {{/each}}
+      </div>
+    </div>
+
+  </div>
+</section>

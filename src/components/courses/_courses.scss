@@ -1,0 +1,100 @@
+.courses {
+  &__content {
+    &-item {
+      display: flex;
+      flex-direction: column;
+      padding: 24px;
+      gap: 24px;
+      background-color: $color-white;
+      border-radius: 10px;
+      border: 1px solid $color-white95;
+
+      @include laptop {
+        padding: 40px;
+      }
+      @include desktop {
+        padding: 50px;
+        gap: 30px;
+        border-radius: 12px;
+      }
+      &--img {
+        border-radius: 6px;
+        @include laptop {
+          border-radius: 8px;
+        }
+
+        @include div-img();
+      }
+      &--add-info {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        @include laptop {
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+        }
+        &--tags {
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          gap: 10px;
+          .tag {
+            padding: 8px 14px;
+            border: 1px solid $color-white95;
+            border-radius: 6px;
+            background-color: $color-white;
+            color: $color-grey30;
+            font-family: "Be Vietnam Pro";
+            font-size: 0.875rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+            @include desktop {
+              padding: 10px 16px;
+              font-size: 1rem;
+              font-size: 1.125rem;
+            }
+          }
+        }
+        &--author {
+          color: $color-grey15;
+          font-family: "Be Vietnam Pro";
+          font-size: 1rem;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+      }
+      &--text {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        @include desktop {
+          gap: 14px;
+        }
+        &-title {
+          color: $color-grey15;
+          font-size: 1.125rem;
+          @include laptop {
+            font-size: 1.25rem;
+          }
+          @include desktop {
+            font-size: 1.5rem;
+          }
+        }
+      }
+
+      &--link {
+        text-align: center;
+        background-color: $color-white97;
+        border: 1px solid $color-white95;
+        a {
+          color: $color-grey15;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

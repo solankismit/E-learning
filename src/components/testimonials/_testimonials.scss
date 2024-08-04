@@ -1,0 +1,79 @@
+.testimonials {
+  &__content {
+    &-item {
+      border-radius: 10px;
+      border: 1px solid $color-white95;
+      background-color: $color-white;
+      &--review {
+        padding: 30px;
+        border-bottom: 1px solid $color-white95;
+        @include laptop {
+          padding: 40px;
+        }
+        @include desktop {
+          padding: 50px;
+        }
+      }
+
+      &--profile {
+        padding: 20px 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        @include laptop {
+          padding: 24px 40px;
+        }
+        @include desktop {
+          padding: 30px 50px;
+        }
+        &--info {
+          display: flex;
+          flex-direction: row;
+          gap: 10px;
+          align-items: center;
+          @include desktop {
+            gap: 15px;
+          }
+          &--img {
+            height: 50px;
+            width: 50px;
+            border-radius: $border-radius;
+            overflow: hidden;
+            @include desktop {
+              height: 60px;
+              width: 60px;
+              border-radius: 8px;
+            }
+            @include div-img();
+          }
+          &--name {
+            color: var(--Grey-20, #333);
+            font-family: "Be Vietnam Pro";
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 150%; /* 1.5rem */
+
+            @include desktop {
+              font-size: 1.125rem;
+            }
+          }
+        }
+        &--btn {
+          padding: 14px 16px;
+          background-color: $color-white97;
+          border: 1px solid $color-white95;
+          @include desktop {
+            padding: 18px 24px;
+          }
+
+          a {
+            color: $color-grey15;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}

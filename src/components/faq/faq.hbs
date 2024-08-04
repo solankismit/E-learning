@@ -1,0 +1,52 @@
+<section class="faq-section" id="faq">
+    <div class="container-fluid ">
+
+        <div class="faq">
+
+            <div class="row g-4">
+                <div class="col-12 col-md-4">
+                    <div class="faq__heading">
+                        <div class="faq__heading--text">
+                            <h2 class="faq__heading--text-title">{{title}}</h2>
+                            <p class="faq__heading--text-desc">{{desc}}</p>
+                        </div>
+                        <div class="faq__heading--btns">
+                            <div class="btn"><a href={{link}}>See All FAQ's</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-7 offset-md-1">
+                    <div class="faq__content">
+                        {{#each data}}
+                        <div class="faq__content-item {{#if this.isHide}}closed{{/if}}">
+
+                            <div class="faq__content-item--question">
+                                <p class="faq__content-item--question--text medium">{{this.que}}</p>
+                                <button id="tap-btn" class="faq__content-item--question--icon icon icon-004-cross-wrong-icon {{#if this.isHide}}closed{{/if}}">
+
+                                    {{!-- <div
+                                        class="faq__content-item--question--icon icon icon-004-cross-wrong-icon {{#if this.isHide}}closed{{/if}}">
+                                    </div> --}}
+                                </button>
+
+                            </div>
+                            <div class="faq__content-item--answer {{#if this.isHide}}hidden{{/if}}">
+                                <p class="faq__content-item--answer--text desc">{{this.ans}}</p>
+                                <div class="faq__content-item--answer--btn">
+                                    <a href={{this.btn-link}}>
+                                        <span class="faq__content-item--answer--btn-text">{{this.btn-text}}</span>
+                                        <span
+                                            class="faq__content-item--answer--btn-icon icon icon-003-arrow-right"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+
+        </div>
+</section>

@@ -1,0 +1,74 @@
+{
+    "title": "Our Courses",
+    "desc": "Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in.",
+    "link":"",
+    "data": [
+        {
+            "img": "Content/images/Image.png",
+            "title": "Web Design Fundamentals",
+            "desc": "Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. Develop the skills to create visually appealing and user-friendly websites.",
+            "tags": [
+                "4 Weeks",
+                "Beginner"
+            ],
+            "link": "",
+            "author": "John Smith"
+        },
+        {
+            "img": "Content/images/Image-1.png",
+            "title": "UI/UX Design",
+            "desc": "Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX). Learn design principles, wireframing, prototyping, and usability testing techniques.",
+            "tags": [
+                "6 Weeks",
+                "Intermediate"
+            ],
+            "link": "",
+            "author": "Emily Johnson"
+        },
+        {
+            "img": "Content/images/Image-2.png",
+            "title": "Web Design Fundamentals",
+            "desc": "Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. Develop the skills to create visually appealing and user-friendly websites.",
+            "tags": [
+                "4 Weeks",
+                "Beginner"
+            ],
+            "link": "",
+            "author": "John Smith"
+        },
+        {
+            "img": "Content/images/Image-3.png",
+            "title": "Graphic Design for Beginners",
+            "desc": "Discover the fundamentals of graphic design, including typography, color theory, layout design, and image manipulation techniques. Create visually stunning designs for print and digital media.",
+            "tags": [
+                "10 Weeks",
+                "Beginner"
+            ],
+            "link": "",
+            "author": "Sarah Thompson"
+        },
+        {
+            "img": "Content/images/Image-4.png",
+            "title": "Web Design Fundamentals",
+            "desc": "Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. Develop the skills to create visually appealing and user-friendly websites.",
+            "tags": [
+                "4 Weeks",
+                "Beginner"
+            ],
+            "link": "",
+            "author": "John Smith"
+        },
+        
+        {
+            "img": "Content/images/Image-5.png",
+            "title": "Web Design Fundamentals",
+            "desc": "Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. Develop the skills to create visually appealing and user-friendly websites.",
+            "tags": [
+                "4 Weeks",
+                "Beginner"
+            ],
+            "link": "",
+            "author": "John Smith"
+        }
+    ]
+}

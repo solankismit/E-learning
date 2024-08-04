@@ -1,0 +1,76 @@
+{
+    "title": "Our Pricing",
+    "desc": "Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in.",
+    "plans": [
+        {
+            "title": "Free Plan",
+            "price": "$0",
+            "link": "",
+            "features": [
+                {
+                    "name": "Access to selected free courses.",
+                    "icon": "icon icon-015-tick-right-icon"
+                },
+                {
+                    "name": "Limited course materials and resources.",
+                    "icon": "icon icon-015-tick-right-icon"
+                },
+                {
+                    "name": "Basic community support.",
+                    "icon": "icon icon-015-tick-right-icon"
+                },
+                {
+                    "name": "No certification upon completion.",
+                    "icon": "icon icon-015-tick-right-icon"
+                },
+                {
+                    "name": "Ad-supported platform.",
+                    "icon": "icon icon-015-tick-right-icon"
+                },
+                {
+                    "name": "Access to exclusive Pro Plan community forums.",
+                    "icon": "icon icon-004-cross-wrong-icon"
+                },
+                {
+                    "name": "Early access to new courses and updates.",
+                    "icon": "icon icon-004-cross-wrong-icon"
+                }
+            ]
+        },
+        {
+            "title": "Pro Plan",
+            "price": "$79",
+            "link": "",
+            "features": [
+                {
+                    "name": "Unlimited access to all courses.",
+                    "icon": "icon icon-015-tick-right-icon"
+                },
+                {
+                    "name": "Unlimited course materials and resources.",
+                    "icon": "icon icon-015-tick-right-icon"
+                },
+                {
+                    "name": "Priority support from instructors.",
+                    "icon": "icon icon-015-tick-right-icon"
+                },
+                {
+                    "name": "Course completion certificates.",
+                    "icon": "icon icon-015-tick-right-icon"
+                },
+                {
+                    "name": "Ad-free experience.",
+                    "icon": "icon icon-015-tick-right-icon"
+                },
+                {
+                    "name": "Access to exclusive Pro Plan community forums.",
+                    "icon": "icon icon-015-tick-right-icon"
+                },
+                {
+                    "name": "Early access to new courses and updates.",
+                    "icon": "icon icon-015-tick-right-icon"
+                }
+            ]
+        }
+    ]
+}

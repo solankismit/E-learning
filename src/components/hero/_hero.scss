@@ -1,0 +1,88 @@
+.hero {
+    align-items: center;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    @include laptop {
+        margin-top: 80px;
+    }
+    &-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__quote {
+        position: relative;
+
+        width: fit-content;
+        padding: 14px;
+        background-color: $color-white;
+        border-radius: $border-radius;
+        border: 1px solid $color-white95;
+        @include laptop {
+        }
+        &-icon {
+            padding: 12px;
+            background-color: $color-orange95;
+            display: inline-flex;
+            border-radius: $border-radius;
+        }
+        &-text {
+            margin-left: 10px;
+            &-highlight {
+                color: $color-orange50;
+            }
+        }
+
+        &-badge {
+            position: absolute;
+            font-size: 40px;
+            top: -20%;
+            left: -5%;
+        }
+    }
+
+    &__title {
+        text-align: center;
+        margin-top: 16px;
+        padding: 0 30px;
+        &-desc {
+            margin-top: 6px;
+        }
+    }
+
+    &__btns {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+    }
+
+    &__slider {
+        margin: 30px 0;
+        border-radius: 8px;
+        border: 1px solid $color-white95;
+
+        max-width: 95%;
+        padding: 10px;
+        width: fit-content;
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+        background-color: $color-white;
+        &-item {
+            &:not(:last-child) {
+                border-right: 1px solid $color-white95;
+            } // height: fit-content;
+            padding: 20px 30px;
+
+            @include laptop {
+                padding: 20px 40px;
+            }
+            @include desktop {
+                padding: 30px 70px;
+            }
+        }
+    }
+}

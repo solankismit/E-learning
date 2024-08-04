@@ -1,0 +1,201 @@
+.faq {
+  background-color: $color-white;
+  border-radius: 12px;
+  padding: 24px;
+  @include laptop {
+    padding: 80px;
+  }
+  @include desktop {
+    padding: 100px;
+  }
+  &__heading {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    @include laptop {
+      gap: 40px;
+    }
+    @include desktop {
+      gap: 50px;
+    }
+    &--text {
+      h2 {
+        line-height: 120%;
+        margin-bottom: 8px;
+      }
+      p {
+        color: $color-grey20;
+      }
+    }
+
+    &--btns {
+      a {
+        font-weight: 500;
+        color: $color-grey15;
+      }
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+    @include tablet {
+      margin-top: 0;
+    }
+    @include desktop {
+      gap: 30px;
+    }
+    &-item {
+      border-radius: 10px;
+      border: 1px solid $color-white95;
+      background-color: $color-white;
+      padding: 24px;
+
+      @include laptop {
+        padding: 40px;
+      }
+      @include desktop {
+        padding: 50px;
+      }
+      &.closed {
+        padding: 24px 24px 20px;
+        @include laptop {
+          padding: 24px 40px;
+        }
+        @include desktop {
+          padding: 30px 50px;
+        }
+      }
+      &--question {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        justify-content: space-between;
+        &--text {
+          font-size: 1rem;
+          @include laptop {
+            font-size: 1.125rem;
+          }
+          @include desktop {
+            font-size: 1.25rem;
+          }
+        }
+        button {
+          padding: 0;
+          border: none;
+        }
+        &--icon {
+          display: flex;
+          height: 40px;
+          aspect-ratio: 1;
+          position: relative;
+          border-radius: $border-radius;
+
+          background-color: $color-orange95;
+          &::before {
+            position: absolute;
+            left: 35%;
+            top: 25%;
+            font-size: 0.875rem;
+            transition: all 0.2s ease;
+          }
+          &.closed {
+            &::before {
+              transition: transform 0.2s ease;
+              transform: rotate(45deg);
+            }
+          }
+        }
+      }
+      &--answer {
+        margin-top: 20px;
+        border-top: 1px solid $color-white95;
+
+        transition: max-height 0.2s linear;
+        max-height: 300px;
+
+        @include desktop {
+          margin-top: 24px;
+        }
+
+        &--text {
+          box-sizing: border-box;
+          padding: 20px 0;
+          color: $color-grey30;
+          letter-spacing: -0.00525rem;
+          @include laptop {
+            letter-spacing: -0.006rem;
+            padding: 40px 0;
+          }
+          @include desktop {
+            letter-spacing: -0.00675rem;
+            padding: 50px 0;
+          }
+        }
+
+        &--btn {
+          padding: 12px 20px;
+          background-color: $color-white97;
+          border: 1px solid $color-white95;
+          border-radius: $border-radius;
+          @include laptop {
+            padding: 16px 24px;
+          }
+          @include desktop {
+            padding: 20px 30px;
+          }
+          a {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+          }
+          &-text {
+            color: var(--Grey-20, #333);
+            font-family: "Be Vietnam Pro";
+            font-size: 0.875rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 150%; /* 1.3125rem */
+            @include laptop {
+              font-size: 1rem;
+            }
+          }
+
+          &-icon {
+            position: relative;
+            padding: 10px;
+            border-radius: 50%;
+            height: 40px;
+            aspect-ratio: 1;
+            background-color: $color-white;
+            @include laptop {
+              padding: 12px;
+              height: 48px;
+            }
+            @include desktop {
+              padding: 14px;
+              height: 56px;
+            }
+            &::before {
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              transform: translate(-50%, -50%);
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+    .hidden {
+      max-height: 0px;
+      border: none;
+      overflow: hidden;
+      transition: max-height 0.5s linear;
+    }
+  }
+}

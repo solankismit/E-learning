@@ -1,0 +1,86 @@
+@font-face {
+	font-family: "icons";
+	src: url('../fonts/icons.eot');
+	src: url('../fonts/icons.eot?#iefix') format('eot'),
+		url('../fonts/icons.woff2') format('woff2'),
+		url('../fonts/icons.woff') format('woff'),
+		url('../fonts/icons.ttf') format('truetype'),
+		url('../fonts/icons.svg#icons') format('svg');
+}
+
+.icon:before {
+	font-family: "icons";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.icon-001-abstract-line:before {
+	content: "\E001";
+}
+
+.icon-002-arrow-right-up:before {
+	content: "\E002";
+}
+
+.icon-003-arrow-right:before {
+	content: "\E003";
+}
+
+.icon-004-cross-wrong-icon:before {
+	content: "\E004";
+}
+
+.icon-005-fb-icon:before {
+	content: "\E005";
+}
+
+.icon-006-hamburger:before {
+	content: "\E006";
+}
+
+.icon-007-hero-heading-power:before {
+	content: "\E007";
+}
+
+.icon-008-linkedin-icon:before {
+	content: "\E008";
+}
+
+.icon-009-location-pin-icon:before {
+	content: "\E009";
+}
+
+.icon-010-logo-abstract-design:before {
+	content: "\E00A";
+}
+
+.icon-011-mail-icon:before {
+	content: "\E00B";
+}
+
+.icon-012-phone-icon:before {
+	content: "\E00C";
+}
+
+.icon-013-play-icon:before {
+	content: "\E00D";
+}
+
+.icon-014-plus-icon:before {
+	content: "\E00E";
+}
+
+.icon-015-tick-right-icon:before {
+	content: "\E00F";
+}
+
+.icon-016-twitter-icon:before {
+	content: "\E010";
+}

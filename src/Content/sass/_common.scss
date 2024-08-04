@@ -1,0 +1,87 @@
+.center {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+}
+li {
+  padding: 0;
+  margin: 0;
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: black;
+
+  cursor: pointer;
+}
+p {
+  margin-bottom: 0;
+}
+
+section {
+  margin-bottom: 50px;
+  @include laptop {
+    margin-bottom: 100px;
+  }
+  .section-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    @include laptop {
+      gap: 60px;
+    }
+    @include desktop {
+      gap: 80px;
+    }
+  }
+}
+
+.container-fluid {
+  padding: 0 16px;
+  @include laptop {
+    padding: 0 80px;
+  }
+  @include desktop {
+    padding: 0 162px;
+  }
+  box-sizing: border-box;
+}
+
+.custom-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @include laptop {
+    flex-direction: row;
+    align-items: end;
+    gap: 0;
+    justify-content: space-between;
+  }
+  &--text {
+    @include laptop {
+      width: 70%;
+    }
+    &-desc {
+      margin-top: 4px;
+      color: $color-grey35;
+      @include laptop {
+        margin-top: 6px;
+      }
+    }
+  }
+
+  &--btns {
+    a {
+      color: $color-grey15;
+      font-weight: 500;
+    }
+  }
+}

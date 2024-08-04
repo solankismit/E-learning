@@ -1,0 +1,44 @@
+{
+    "title":"Benefits",
+    "desc": "Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in.",
+    "link":"",
+    "data":[
+        {
+            "no":"01",
+            "title":"Flexible Learning Schedule",
+            "desc":"Fit your coursework around your existing commitments and obligations.",
+            "link":""
+        },
+        {
+            "no":"02",
+            "title":"Expert Instruction",
+            "desc":"Learn from industry experts who have hands-on experience in design and development.",
+            "link":""
+        },
+        {
+            "no":"03",
+            "title":"Diverse Course Offerings",
+            "desc":"Explore a wide range of design and development courses covering various topics.",
+            "link":""
+        },
+        {
+            "no":"04",
+            "title":"Updated Curriculum",
+            "desc":"Access courses with up-to-date content reflecting the latest trends and industry practices.",
+            "link":""
+        },
+        {
+            "no":"05",
+            "title":"Practical Projects and Assignments",
+            "desc":"Develop a portfolio showcasing your skills and abilities to potential employers.",
+            "link":""
+        },
+        {
+            "no":"06",
+            "title":"Interactive Learning Environment",
+            "desc":"Collaborate with fellow learners, exchanging ideas and feedback to enhance your understanding.",
+            "link":""
+        }
+       
+    ]
+}

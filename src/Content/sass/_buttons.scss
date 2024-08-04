@@ -1,0 +1,36 @@
+button,
+.btn {
+  border-radius: $border-radius;
+  cursor: pointer;
+  padding: 14px 20px;
+  background-color: $color-white;
+  color: $color-grey15;
+  border: 1px solid $color-white95;
+  width: fit-content;
+
+  @include desktop {
+    padding: 18px 24px;
+    border-radius: 8px;
+  }
+
+  &-full {
+    width: 100%;
+  }
+
+  &-header {
+    padding: 12px 20px;
+  }
+
+  &-orange {
+    color: $color-white;
+    background-color: $color-orange50;
+
+    a {
+      color: $color-white;
+    }
+  }
+
+  &.transparent {
+    background-color: transparent;
+  }
+}

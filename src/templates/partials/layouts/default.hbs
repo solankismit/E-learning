@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="description" content="{{ this.meta.description }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>{{ this.title }}</title>
+  <link rel="stylesheet" href="./Content/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="./Content/images/favicon.ico" rel="shortcut icon" />
+</head>
+
+<body>
+  {{#>header }}
+  {{> global/header @root.header }}
+  {{/header}}
+  <main role="main">
+    {{#>content}}{{/content}}
+  </main>
+  {{#>footer}}
+  {{> global/footer @root.footer }}
+  {{/footer}}
+  {{#>foot}}
+  <script src="./Content/scripts/vendor.min.js"></script>
+  <script src="./Content/scripts/main.js"></script>
+  <script src="./Content/scripts/custom-js/accordion.js"></script>
+  <script src="./Content/scripts/custom-js/faq.js"></script>
+  {{/foot}}
+</body>
+
+</html>

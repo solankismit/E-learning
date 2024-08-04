@@ -1,0 +1,42 @@
+{
+    "title": "Frequently Asked Questions",
+    "desc": "Still you have any questions? Contact our Team via support@skillbridge.com",
+    "link": "",
+    "data": [
+        {
+            "que": "Can I enroll in multiple courses at once?",
+            "ans": "Absolutely! You can enroll in multiple courses simultaneously and access them at your convenience.",
+            "btn-text": "Enrollment Process for Different Courses",
+            "btn-link": "",
+            "isHide": false
+        },
+        {
+            "que": "What kind of support can I expect from instructors?",
+            "ans": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, esse.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, esse.",
+            "btn-text": "Enrollment Process for Different Courses",
+            "btn-link": "",
+            "isHide": true
+        },
+        {
+            "que": "Are the courses self-paced or do they have specific start and end dates?",
+            "ans": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, esse.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, esse.",
+            "btn-text": "Enrollment Process for Different Courses",
+            "btn-link": "",
+            "isHide": true
+        },
+        {
+            "que": "Are there any prerequisites for the courses?",
+            "ans": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, esse.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, esse.",
+            "btn-text": "Enrollment Process for Different Courses",
+            "btn-link": "",
+            "isHide": true
+        },
+        {
+            "que": "Can I download the course materials for offline access?",
+            "ans": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, esse.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, esse.",
+            "btn-text": "Enrollment Process for Different Courses",
+            "btn-link": "",
+            "isHide": true
+        }
+    ]
+}

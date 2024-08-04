@@ -1,0 +1,31 @@
+{
+    "title": "Our Testimonials",
+    "desc": "Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in.",
+    "link": "",
+    "data": [
+        {
+            "review": "The web design course provided a solid foundation for me. The instructors were knowledgeable and supportive, and the interactive learning environment was engaging. I highly recommend it!",
+            "name": "Sarah L",
+            "img": "Content/images/Imagetestmonials.png",
+            "link": ""
+        },
+        {
+            "review": "The UI/UX design course exceeded my expectations. The instructor's expertise and practical assignments helped me improve my design skills. I feel more confident in my career now. Thank you!",
+            "name": "Json M",
+            "img": "Content/images/Imagetestmonials-1.png",
+            "link": ""
+        },
+        {
+            "review": "The mobile app development course was fantastic! The step-by-step tutorials and hands-on projects helped me grasp the concepts easily. I'm now building my own app. Great course!",
+            "name": "Emily R",
+            "img": "Content/images/Imagetestmonials-2.png",
+            "link": ""
+        },
+        {
+            "review": "I enrolled in the graphic design course as a beginner, and it was the perfect starting point. The instructor's guidance and feedback improved my design abilities significantly. I'm grateful for this course!",
+            "name": "Micheal K",
+            "img": "Content/images/Imagetestmonials-3.png",
+            "link": ""
+        }
+    ]
+}

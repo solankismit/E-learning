@@ -1,0 +1,10 @@
+[
+    {
+        "key": "@accordion",
+        "srcpath": "accordion/accordion"
+    },
+    {
+        "key": "@product-list",
+        "srcpath": "product-list/product-list"
+    }
+]
